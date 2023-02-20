@@ -8,6 +8,15 @@
   --light-mode-color: #f4f4fd;
   --accent-botton-color: #e7e9fc;
 }
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  outline: 2px solid tomato;
+}
 body {
   background-color: var(--page-background-color);
   color: var(--body-text-color);
