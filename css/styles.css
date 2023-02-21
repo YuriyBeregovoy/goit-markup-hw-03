@@ -125,9 +125,14 @@ body {
   background-color: var(--pressed-state-color);
 }
 /*-------------------- Section advantages--------------------- */
+.advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .advantages .title {
   letter-spacing: 0.02em;
   color: var(--title-section-color);
+  margin-bottom: 8px;
 }
 /*----------------------Section activities----Section our team------------------ */
 .section-title {
