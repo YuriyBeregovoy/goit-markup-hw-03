@@ -97,24 +97,28 @@ body {
 /*------------------ Hero section-------------------------*/
 .hero {
   background-color: var(--title-section-color);
+  text-align: center;
 }
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   color: var(--page-background-color);
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
 }
 .button-hero {
   font-family: inherit;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   font-weight: 500;
   color: var(--page-background-color);
   background-color: var(--primary-brand-color);
   letter-spacing: 0.04em;
   border: none;
   cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
+  align-items: center;
 }
 .button-hero:hover,
 .button-hero:focus {
