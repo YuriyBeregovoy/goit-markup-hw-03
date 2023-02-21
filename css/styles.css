@@ -73,7 +73,14 @@ body {
   padding-bottom: 120px;
 }
 /* ---------------- The head of the page--------------- */
+.rows,
+.naw-row {
+  display: flex;
+}
 .logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-family: 'Raleway', 'sans-serif';
   font-weight: 800;
   font-size: 18px;
@@ -82,12 +89,25 @@ body {
   text-transform: uppercase;
   color: var(--title-section-color);
 }
+
+.site-nav,
+.adress-items {
+  display: flex;
+}
 .site-nav .link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-weight: 500;
   font-size: 16px;
   color: var(--title-section-color);
 }
 .adress-items .link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-style: normal;
   color: var(--body-text-color);
 }
@@ -111,6 +131,9 @@ body {
   margin-bottom: 48px;
 }
 .button-hero {
+  align-items: center;
+  padding: 16px 32px;
+
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
@@ -118,11 +141,10 @@ body {
   color: var(--page-background-color);
   background-color: var(--primary-brand-color);
   letter-spacing: 0.04em;
+
   border: none;
   cursor: pointer;
-  padding: 16px 32px;
   border-radius: 4px;
-  align-items: center;
 }
 .button-hero:hover,
 .button-hero:focus {
