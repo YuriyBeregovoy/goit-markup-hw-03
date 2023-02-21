@@ -98,6 +98,7 @@ body {
 .hero {
   background-color: var(--title-section-color);
   text-align: center;
+  margin-bottom: 120px;
 }
 .hero-title {
   font-size: 56px;
@@ -126,8 +127,7 @@ body {
 }
 /*-------------------- Section advantages--------------------- */
 .advantages {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  margin-bottom: 120px;
 }
 .advantages .title {
   letter-spacing: 0.02em;
@@ -136,7 +136,7 @@ body {
 }
 /*----------------------Section activities----Section our team------------------ */
 .activities {
-  padding-bottom: 120px;
+  margin-bottom: 120px;
 }
 .section-title {
   font-size: 36px;
