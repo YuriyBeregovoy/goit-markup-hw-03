@@ -135,6 +135,9 @@ body {
   margin-bottom: 8px;
 }
 /*----------------------Section activities----Section our team------------------ */
+.activities {
+  padding-bottom: 120px;
+}
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -142,19 +145,25 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-section-color);
+  margin-bottom: 72px;
 }
 /*-------------------------------- Section our team ------------------------------------*/
 .section-team {
   background-color: var(--light-mode-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .cards {
   background-color: var(--page-background-color);
 }
+.card-img {
+  margin-bottom: 32px;
+}
 .section-team .title {
-  text-align: center;
+  margin-bottom: 8px;
 }
 .section-team .text {
-  text-align: center;
+  padding-bottom: 32px;
 }
 /*-------------------------------------- Saction Portfolio ---------------------------------- */
 .button-filtr .filtr {
