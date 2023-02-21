@@ -189,8 +189,14 @@ body {
   color: var(--body-text-color);
 }
 /*--------------------------- Footer------------------------------ */
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .footer .logo {
   color: var(--light-mode-color);
+  margin-bottom: 16px;
+  line-height: 1.17;
 }
 .footer .text {
   color: var(--accent-botton-color);
