@@ -68,6 +68,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-section-color);
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 /* ---------------- The head of the page--------------- */
 .logo {
   font-family: 'Raleway', 'sans-serif';
@@ -98,7 +102,6 @@ body {
 .hero {
   background-color: var(--title-section-color);
   text-align: center;
-  margin-bottom: 120px;
 }
 .hero-title {
   font-size: 56px;
@@ -136,7 +139,6 @@ body {
 }
 /*----------------------Section activities----Section our team------------------ */
 .activities {
-  margin-bottom: 120px;
 }
 .section-title {
   font-size: 36px;
@@ -150,8 +152,6 @@ body {
 /*-------------------------------- Section our team ------------------------------------*/
 .section-team {
   background-color: var(--light-mode-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .cards {
   background-color: var(--page-background-color);
