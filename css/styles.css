@@ -15,7 +15,7 @@
   margin-right: auto;
   margin-left: auto;
 
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 h1,
@@ -76,6 +76,9 @@ body {
 .rows,
 .naw-row {
   display: flex;
+}
+.rows {
+  border-bottom: 1px solid var(--accent-botton-color);
 }
 .logo {
   margin-right: 76px;
@@ -178,6 +181,13 @@ body {
   color: var(--title-section-color);
   margin-bottom: 8px;
 }
+.string {
+  display: flex;
+}
+
+.string .item:not(:last-child) {
+  margin-right: 24px;
+}
 /*----------------------Section activities----Section our team------------------ */
 .section-title {
   font-size: 36px;
@@ -188,14 +198,28 @@ body {
   color: var(--title-section-color);
   margin-bottom: 72px;
 }
+.series {
+  display: flex;
+}
+.item-image {
+  display: block;
+}
+.series .item:not(:last-child) {
+  margin-right: 24px;
+}
+
 /*-------------------------------- Section our team ------------------------------------*/
 .section-team {
   background-color: var(--light-mode-color);
 }
 .cards {
   background-color: var(--page-background-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .card-img {
+  display: block;
   margin-bottom: 32px;
 }
 .section-team .title {
@@ -203,6 +227,13 @@ body {
 }
 .section-team .text {
   padding-bottom: 32px;
+}
+.team {
+  display: flex;
+  text-align: center;
+}
+.team .cards:not(:last-child) {
+  margin-right: 24px;
 }
 /*-------------------------------------- Saction Portfolio ---------------------------------- */
 .button-filtr .filtr {
