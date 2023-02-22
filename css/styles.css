@@ -15,7 +15,7 @@
   margin-right: auto;
   margin-left: auto;
 
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
 }
 
 h1,
@@ -172,6 +172,9 @@ body {
 .button-hero:focus {
   background-color: var(--pressed-state-color);
 }
+.dark-bg {
+  padding: 188px 0;
+}
 /*-------------------- Section advantages--------------------- */
 .advantages {
   margin-bottom: 120px;
@@ -267,10 +270,14 @@ body {
   color: var(--light-mode-color);
   margin-bottom: 16px;
   line-height: 1.17;
+  padding: 0;
 }
 .footer .text {
   color: var(--accent-botton-color);
 }
 .footer {
   background-color: var(--title-section-color);
+}
+.aside {
+  padding-right: 879px;
 }
