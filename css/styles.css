@@ -78,6 +78,8 @@ body {
   display: flex;
 }
 .logo {
+  margin-right: 76px;
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 
@@ -90,10 +92,10 @@ body {
   color: var(--title-section-color);
 }
 
-.site-nav,
-.adress-items {
+.site-nav {
   display: flex;
 }
+
 .site-nav .link {
   display: block;
   padding-top: 24px;
@@ -103,7 +105,12 @@ body {
   font-size: 16px;
   color: var(--title-section-color);
 }
-.adress-items .link {
+
+.site-nav .item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.address-items .link {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -118,6 +125,18 @@ body {
 .link.current {
   color: var(--pressed-state-color);
 }
+.address-items {
+  display: flex;
+}
+
+.address-items .item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.address {
+  margin-left: auto;
+}
+
 /*------------------ Hero section-------------------------*/
 .hero {
   background-color: var(--title-section-color);
