@@ -186,14 +186,12 @@ body {
 }
 .string {
   display: flex;
+  justify-content: space-between;
 }
 .string .item {
   width: 264px;
 }
 
-.string .item:not(:last-child) {
-  margin-right: 24px;
-}
 /*----------------------Section activities----Section our team------------------ */
 .section-title {
   font-size: 36px;
@@ -206,15 +204,13 @@ body {
 }
 .series {
   display: flex;
+  justify-content: space-between;
 }
 .item-image {
   display: block;
 }
-.series .item:not(:last-child) {
-  margin-right: 24px;
-}
 
-/*-------------------------------- Section our team ------------------------------------*/
+/*----------------------------- Section our team ------------------------------------*/
 .section-team {
   background-color: var(--light-mode-color);
 }
@@ -237,11 +233,9 @@ body {
 .team {
   display: flex;
   text-align: center;
+  justify-content: space-between;
 }
-.team .cards:not(:last-child) {
-  margin-right: 24px;
-}
-/*-------------------------------------- Saction Portfolio ---------------------------------- */
+/*----------------------------- Saction Portfolio ---------------------------------- */
 .button-filtr .filtr {
   font-family: inherit;
   font-weight: 500;
