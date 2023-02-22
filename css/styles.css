@@ -187,6 +187,9 @@ body {
 .string {
   display: flex;
 }
+.string .item {
+  width: 264px;
+}
 
 .string .item:not(:last-child) {
   margin-right: 24px;
@@ -271,13 +274,12 @@ body {
   margin-bottom: 16px;
   line-height: 1.17;
   padding: 0;
+  width: 264px;
 }
 .footer .text {
   color: var(--accent-botton-color);
+  width: 264px;
 }
 .footer {
   background-color: var(--title-section-color);
-}
-.aside {
-  padding-right: 879px;
 }
