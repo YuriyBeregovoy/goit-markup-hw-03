@@ -253,6 +253,10 @@ body {
 .projects .text {
   color: var(--body-text-color);
 }
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 /*--------------------------- Footer------------------------------ */
 .footer {
   padding-top: 100px;
