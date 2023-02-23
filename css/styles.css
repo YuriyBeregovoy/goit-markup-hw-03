@@ -231,15 +231,17 @@ img {
 }
 /*---------------Saction Portfolio ---------------- */
 .button-filtr .filtr {
+  padding: 12px 24px;
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--primary-brand-color);
   border: 1px solid var(--accent-botton-color);
+  border-radius: 4px;
   cursor: pointer;
   background-color: var(--light-mode-color);
 }
@@ -248,6 +250,8 @@ img {
   color: var(--page-background-color);
   background-color: var(--pressed-state-color);
   border-color: transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .projects .text {
   color: var(--body-text-color);
@@ -255,6 +259,27 @@ img {
 .portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
+}
+
+.button-filtr {
+  display: flex;
+  margin-bottom: 72px;
+  justify-content: center;
+}
+.button-filtr .item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.projects .title {
+  margin-bottom: 8px;
+}
+.projects .pic {
+  margin-bottom: 32px;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 /*-----------------Footer---------------- */
 .footer {
