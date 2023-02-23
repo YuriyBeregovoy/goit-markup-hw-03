@@ -77,7 +77,7 @@ body {
 .naw-row {
   display: flex;
 }
-.rows {
+.line {
   border-bottom: 1px solid var(--accent-botton-color);
 }
 .logo {
