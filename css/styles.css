@@ -72,6 +72,9 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+img {
+  display: block;
+}
 /* ---------------- The head of the page--------------- */
 .rows,
 .naw-row {
@@ -202,9 +205,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.item-image {
-  display: block;
-}
 /*----------------------------- Section our team ------------------------------------*/
 .section-team {
   background-color: var(--light-mode-color);
@@ -216,7 +216,6 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .card-img {
-  display: block;
   margin-bottom: 32px;
 }
 .section-team .title {
