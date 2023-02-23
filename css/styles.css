@@ -1,4 +1,4 @@
-/* --------------------------Utility--------------------------- */
+/* --------------Utility----------------- */
 :root {
   --page-background-color: #ffffff;
   --body-text-color: #434455;
@@ -75,7 +75,7 @@ body {
 img {
   display: block;
 }
-/* ---------------- The head of the page--------------- */
+/* -------------The head of the page----------- */
 .rows,
 .naw-row {
   display: flex;
@@ -136,7 +136,7 @@ img {
 .address {
   margin-left: auto;
 }
-/*------------------ Hero section-------------------------*/
+/*---------------Hero section--------------*/
 .hero {
   background-color: var(--title-section-color);
   text-align: center;
@@ -175,7 +175,7 @@ img {
 .dark-bg {
   padding: 188px 0;
 }
-/*-------------------- Section advantages--------------------- */
+/*--------------Section advantages-------------- */
 .advantages {
   padding-top: 120px;
 }
@@ -191,7 +191,7 @@ img {
 .string .item {
   width: 264px;
 }
-/*----------------------Section activities----Section our team------------------ */
+/*-------------Section activities----Section our team--------------- */
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -205,7 +205,7 @@ img {
   display: flex;
   justify-content: space-between;
 }
-/*----------------------------- Section our team ------------------------------------*/
+/*-------------Section our team -----------------*/
 .section-team {
   background-color: var(--light-mode-color);
 }
@@ -229,7 +229,7 @@ img {
   text-align: center;
   justify-content: space-between;
 }
-/*----------------------------- Saction Portfolio ---------------------------------- */
+/*---------------Saction Portfolio ---------------- */
 .button-filtr .filtr {
   font-family: inherit;
   font-weight: 500;
@@ -256,7 +256,7 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-/*--------------------------- Footer------------------------------ */
+/*-----------------Footer---------------- */
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
