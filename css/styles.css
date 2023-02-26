@@ -74,9 +74,12 @@ body {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .gap {
   gap: 24px;
+  flex-wrap: wrap;
 }
 
 /* -------------The head of the page----------- */
@@ -103,6 +106,7 @@ img {
 }
 .site-nav {
   display: flex;
+  gap: 40px;
 }
 .site-nav .link {
   display: block;
@@ -112,9 +116,6 @@ img {
   font-weight: 500;
   font-size: 16px;
   color: var(--title-section-color);
-}
-.site-nav .item:not(:last-child) {
-  margin-right: 40px;
 }
 .address-items .link {
   display: block;
@@ -144,9 +145,10 @@ img {
 .hero {
   background-color: var(--title-section-color);
   text-align: center;
+  padding: 188px 0;
 }
 .hero-title {
-  width: 496px;
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
@@ -177,9 +179,6 @@ img {
 .button-hero:focus {
   background-color: var(--pressed-state-color);
 }
-.dark-bg {
-  padding: 188px 0;
-}
 /*--------------Section advantages-------------- */
 .advantages .title {
   letter-spacing: 0.02em;
@@ -190,7 +189,7 @@ img {
   display: flex;
 }
 .string .item {
-  width: 264px;
+  width: calc((100% - 24px * 3) / 4);
 }
 /*-------------Section activities----Section our team--------------- */
 .section-title {
@@ -209,7 +208,7 @@ img {
   padding-bottom: 120px;
 }
 .series .item {
-  width: 360px;
+  width: calc((100% - 48px) / 3);
 }
 
 /*-------------Section our team -----------------*/
@@ -217,7 +216,7 @@ img {
   background-color: var(--light-mode-color);
 }
 .team .cards {
-  width: 264px;
+  width: calc((100% - 24px * 3) / 4);
   background-color: var(--page-background-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -283,7 +282,7 @@ img {
   column-gap: 24px;
 }
 .projects .card {
-  width: 360px;
+  width: calc((100% - 48px) / 3);
 }
 
 .description {
@@ -306,7 +305,7 @@ img {
 }
 .footer .text {
   color: var(--accent-botton-color);
-  width: 264px;
+  max-width: 264px;
 }
 .footer {
   background-color: var(--title-section-color);
